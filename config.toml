@@ -1,5 +1,5 @@
 theme = "hugo-theme-shell"
-baseURL = 'johncoronel.dev'
+baseURL = 'https://johncoronel.dev/'
 languageCode = 'en-us'
 title = 'John Coronel'
 [Params]
@@ -9,7 +9,7 @@ userName = "John"
 pcName = "laptop"
 workDir = "home"
 profile = "profile.json"
-terminalDelay = 22
+terminalDelay = 0
 activityDelay = 0
 
 description = "/description.md"
