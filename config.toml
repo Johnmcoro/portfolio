@@ -1,0 +1,27 @@
+theme = "hugo-theme-shell"
+baseURL = 'johncoronel.dev'
+languageCode = 'en-us'
+title = 'John Coronel'
+[Params]
+[Params.Terminal]
+schema = "monokai"
+userName = "John"
+pcName = "laptop"
+workDir = "home"
+profile = "profile.json"
+terminalDelay = 22
+activityDelay = 0
+
+description = "/description.md"
+ [Params.Tree]
+  use = true
+folderName = "posts"
+files = [
+    ["Building an app preview with Flutter", "/posts/building-a-flutter-preview.md"]
+
+]
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.85.0"
