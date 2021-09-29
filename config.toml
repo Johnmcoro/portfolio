@@ -3,23 +3,22 @@ baseURL = 'https://johncoronel.dev/'
 languageCode = 'en-us'
 title = 'John Coronel'
 [Params]
+    custom_css = ["css/custom.css"]
 [Params.Terminal]
 schema = "monokai"
 userName = "John"
 pcName = "laptop"
 workDir = "home"
 profile = "profile.json"
-terminalDelay = 0
-activityDelay = 0
+terminalDelay = 1
+activityDelay = 1
 
 description = "/description.md"
  [Params.Tree]
   use = true
-folderName = "posts"
-files = [
-    ["Building an app preview with Flutter", "/posts/building-a-flutter-preview.md"]
+folderName = "links"
+files = [["LinkedIn", "https://www.linkedin.com/in/john-m-coronel/"]]
 
-]
 
 [module]
   [module.hugoVersion]
