@@ -1,18 +1,11 @@
 
 pre {
     background: inherit !important;
-    font-size: 14px;
+    font-size: 1.8vmin;
     line-height:1.2;
 }
 
 
-@media only screen and (max-width: 600px) {
-   
-    pre {
-        font-size:11;
-        max-width: 100%;
-    }
-  }
 body {
     flex-direction: row;
     justify-content: unset;

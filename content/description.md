@@ -13,7 +13,6 @@
         "coordinates": [41.7004, 73.9210],
         "city": "Poughkeepsie",
         "state": "NY"
-    },
+    }
 }
 ```
-
