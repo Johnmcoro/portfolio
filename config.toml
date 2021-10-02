@@ -10,8 +10,8 @@ userName = "John"
 pcName = "laptop"
 workDir = "home"
 profile = "profile.json"
-terminalDelay = 1
-activityDelay = 1
+terminalDelay = 3
+activityDelay = 2
 
 description = "/description.md"
  [Params.Tree]
